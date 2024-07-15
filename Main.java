@@ -15,7 +15,7 @@ public class Main {
             switch (choice) {
                 case 1:
                     System.out.print("Enter Your Name: ");
-                    scanner.nextLine(); // consume the newline
+                    scanner.nextLine(); 
                     String passengerName = scanner.nextLine();
                     System.out.print("Enter Seat Number: ");
                     int seatNumber = scanner.nextInt();
